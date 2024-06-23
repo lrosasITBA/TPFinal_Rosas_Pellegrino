@@ -1,0 +1,14 @@
+{
+  "name": "@mauroinfovis/tpfinalairbnb",
+  "main": "5f32c829215060c5@159.js",
+  "version": "159.0.0",
+  "homepage": "https://observablehq.com/@mauroinfovis/tpfinalairbnb",
+  "author": {
+    "name": "infovis",
+    "url": "https://observablehq.com/@mauroinfovis"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
