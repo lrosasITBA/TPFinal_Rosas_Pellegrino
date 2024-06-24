@@ -16,7 +16,7 @@ library(geodata)
 mapa <- read_sf("https://cdn.buenosaires.gob.ar/datosabiertos/datasets/barrios/barrios.geojson")
 head(barrios)
 #CSV modificado. Se sumo la cantidad de listings por barrio. Ver descricion de archivo completa
-listingsxbarrios = read.csv("https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/listingsbarrios.csv",sep=";")
+listingsxbarrios = read.csv("https://raw.githubusercontent.com/lrosasITBA/TPFinal_Rosas_Pellegrino/main/listingsbarrios.csv",sep=";")
 head(listingsxbarrios)
 #Use left_join para unificar la tabla de barrios, con la suma de los listings por barrio
 mapa <- mapa %>%
@@ -55,3 +55,40 @@ cart3 = ggplot(mapa_cartogram)+
             legend.title=element_text(size=8), 
             legend.key.width = unit(2,"cm"))
 x11(); cart3
+#Cuarto cartograma. Se hace interactivo el Cartograma2
+    cart4 <- gapminder %>%
+    ggplot() +
+geom_sf(data = mapa, aes(label = BARRIO, fill=suma, size=suma)) + 
+     labs(title = "Cantidad de Listings por Barrio de CABA", 
+     fill = "listings",
+     x = "Longitud",
+     y = "Latitud") + 
+     scale_fill_viridis_c(trans = "log2", na.value = "grey80") + 
+     theme_minimal() +
+     theme(legend.direction = "horizontal", 
+           legend.position = "bottom", 
+           legend.title=element_text(size=8), 
+           legend.key.width = unit(2,"cm"))
+
+geom_point()
+
+ggplotly(cart4)
+#Quinto cartograma. Se hace interactivo el cartograma3
+    cart5 <- gapminder %>%
+    ggplot() +
+geom_sf(data = mapa_cartogram, aes(label = BARRIO, fill=suma, size=suma), linewidth = 0, alpha = 0.9) + 
+     labs(title = "Cantidad de Listings por Barrio de CABA", 
+     fill = "listings",
+     x = "Longitud",
+     y = "Latitud") + 
+     scale_fill_viridis_c(trans = "log2", na.value = "grey80") + 
+     theme_minimal() +
+     theme(legend.direction = "horizontal", 
+           legend.position = "bottom", 
+           legend.title=element_text(size=8), 
+           legend.key.width = unit(2,"cm"))
+
+geom_point()
+
+ggplotly(cart5)
+
