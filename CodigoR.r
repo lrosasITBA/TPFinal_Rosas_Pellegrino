@@ -16,7 +16,7 @@ library(geodata)
 mapa <- read_sf("https://cdn.buenosaires.gob.ar/datosabiertos/datasets/barrios/barrios.geojson")
 head(barrios)
 #CSV modificado. Se sumo la cantidad de listings por barrio. Ver descricion de archivo completa
-listingsxbarrios = read.csv("https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/listingsbarrios.csv";sep=";")
+listingsxbarrios = read.csv("https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/listingsbarrios.csv",sep=";")
 head(listingsxbarrios)
 #Use left_join para unificar la tabla de barrios, con la suma de los listings por barrio
 mapa <- mapa %>%
