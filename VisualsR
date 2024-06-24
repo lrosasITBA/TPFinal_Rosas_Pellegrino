@@ -51,24 +51,20 @@ p {
 </p>
   
   
-<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart1.png" alt="c1"/>
+<img src = "Cart1.png" alt="c1"/>
   
 <p>
-  Baje 3,8 Kilos durante el transcurso de la toma de datos.<br>
-  Una diferencia de 3,26 Kilos respecto al proyectado.
-  También, podemos ver el detalle mirando exclusivamente la masa grasa: <br>
+  Cartograma 3. Con barrios distorsionados según la cantidad de listings y coloreado por suma listings <br>
 </p> 
   
-<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart2.png" alt="c2"/>
+<img src = "Cart2.png" alt="c2"/>
   
 <p> 
-  De estos 3,8 kilos de diferencia, la totalidad de la perdida proviene de la masa grasa.<br>
-  La masa magra soló vario en 20 gramos.<br>
-  El error del modelo de 3,26 kilos se convierte en un desfazaje de 25.102 kcal. (7700 kcal/kg Masa Grasa)
+  Cartograma 3. Con barrios distorsionados según la cantidad de listings y coloreado por suma listings<br>
 </p>
 
-<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart3.png" alt="c3"/>  
-</body>
+<img src = "Cart3.png" alt="c3"/>  
+
 
 </body>
 
