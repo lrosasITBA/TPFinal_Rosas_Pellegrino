@@ -6,7 +6,7 @@ install.packages("cartogram")
 install.packages("dplyr")
 install.packages("geodata")
 install.packages("gapminder")
-install.packages("plotly"
+install.packages("plotly")
 #Activación de Librerias
 library(ggplot2)
 library(tidyverse)
