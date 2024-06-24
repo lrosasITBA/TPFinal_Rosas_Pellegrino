@@ -1,0 +1,75 @@
+<html>
+<style>
+body {
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<head>
+<style>
+h1 {
+  color: black;
+  font-family: helvetica;
+  background-color:white;
+  font-size: 300%;
+}
+h2 {
+  color: black;
+  font-family: helvetica;
+  background-color:white;
+  font-size: 200%;
+}
+p {
+  color: black;
+  font-family: helvetica;
+  background-color:white;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1><h1> Inside Airbnb</h1></h1>
+<p>TP Final <br>
+  Visualización de la Información (72.74)<br>
+  Alumno: Lorenzo Rosas y Mauro Jose Pellegrino Casalanguida<br>
+  Propuesta: Contador de Calorías<br>
+</p>
+<h2><h2>1. Presentación </h2></h2>
+<p>Mi objetivo de este trabajo fue darle un seguimiento a mi peso y masa grasa. <br>
+  Como herramientas de recolección de datos, utilize FatSecret para anotar mis calorias y la App Fitness para contar las calorias quemadas por movimiento.<br>
+  También lleve registro de actividades físicas como el gimnasio en la App de Notas.<br>
+</p>
+<h2><h2>2. Metodología</h2></h2>
+<p> 
+  Todos los días se anotó la cantidad de calorías consumidas, calorías quemadas por movimiento y el cálculo de calorías quemadas en actividades físicas. <br>
+  Se tomo como parametro de tasa metabólica basal (BMR): 2000kcal/día. El estandar promedio establecido para un hombre.<br>
+  Para las mediciones de porcentaje de grasa, se utilizo el método "U.S. Navy". Calculado como: %BF = 495 / (1.0324 − 0.19077 × log10(waist − neck) + 0.15456 × log10(height)) − 450.<br>
+</p>
+  
+  
+<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart1.png" alt="c1"/>
+  
+<p>
+  Baje 3,8 Kilos durante el transcurso de la toma de datos.<br>
+  Una diferencia de 3,26 Kilos respecto al proyectado.
+  También, podemos ver el detalle mirando exclusivamente la masa grasa: <br>
+</p> 
+  
+<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart2.png" alt="c2"/>
+  
+<p> 
+  De estos 3,8 kilos de diferencia, la totalidad de la perdida proviene de la masa grasa.<br>
+  La masa magra soló vario en 20 gramos.<br>
+  El error del modelo de 3,26 kilos se convierte en un desfazaje de 25.102 kcal. (7700 kcal/kg Masa Grasa)
+</p>
+
+<img src = "https://github.com/lrosasITBA/TPFinal_Rosas_Pellegrino/blob/main/carts/Cart3.png" alt="c3"/>  
+</body>
+
+</body>
+
+</html>
